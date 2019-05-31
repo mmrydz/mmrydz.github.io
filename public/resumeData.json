@@ -4,7 +4,7 @@
     "occupation":"Full Stack Web Developer",
     "description":"HTML, CSS, JavaScript, Bootstrap, jQuery, React, MongoDB, Node.js, Express, Git, GitHub, Version Control (kanban)",
     "image":"profilepic.jpg",
-    "bio":"Full Stack Web Developer with a background in Retail and Finance and a life-long dedication to learning. Effective at combining creativity and problem solving to develop user-friendly applications. Proficient in the MERN Stack; flexible, fast learner bringing curiosity and passion to every project. Enthusiastic and encouraging on a team but able to work independently.",
+    "bio":"Full Stack Web Developer with a background in Retail and Finance and a life-long dedication to learning. Effective at combining creativity and problem solving to develop user-friendly applications. Proficient in the MERN Stack; flexible, fast learner bringing curiosity and passion to every project. Enthusiastic and encouraging on a team but also able to work well independently.",
     "contactmessage":"Let me know how I can help you!",
     "email": "megrydzewski@gmail.com",
     "phone": "703-434-2274",
@@ -14,8 +14,8 @@
       "state":"Virginia",
       "zip": "22207"
     },
-    "website": "https://mmrydz.github.io",
-    "resumedownload":"http://mmrydz.github.io",
+    "website": "https://mmrydz.herokuapp.com/",
+    "resumedownload":"https://docs.google.com/document/d/17T8PfaUCweBREVkll7QMRYHmMTNcCERzmiotVz7au-k/edit#",
     "social":[
       {
         "name":"linkedin",
