@@ -1,0 +1,145 @@
+{
+  "main": {
+    "name":"Meg Rydzewski",
+    "occupation":"Full Stack Web Developer",
+    "description":"HTML, CSS, JavaScript, Bootstrap, jQuery, React, MongoDB, Node.js, Express, Git, GitHub, Version Control (kanban)",
+    "image":"profilepic.jpg",
+    "bio":"Full Stack Web Developer with a background in Retail and Finance and a life-long dedication to learning. Effective at combining creativity and problem solving to develop user-friendly applications. Proficient in the MERN Stack; flexible, fast learner bringing curiosity and passion to every project. Enthusiastic and encouraging on a team but able to work independently.",
+    "contactmessage":"Let me know how I can help you!",
+    "email": "megrydzewski@gmail.com",
+    "phone": "703-434-2274",
+    "address":{
+      "street":"",
+      "city":"Arlington",
+      "state":"Virginia",
+      "zip": "22207"
+    },
+    "website": "https://mmrydz.github.io",
+    "resumedownload":"http://mmrydz.github.io",
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/megmillerrydzewski/",
+        "className":"fab fa-linkedin"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/mmrydz/mmrydz.github.io",
+        "className":"fab fa-github"
+         }
+    ],
+      "techs": [
+        {
+          "image":"html-css-js.png",
+          "url":"https://en.wikipedia.org/wiki/Front-end_web_development",
+          "title": "JavaScript"
+        },
+        {
+          "image":"mongodb.png",
+          "url":"https://www.mongodb.com/what-is-mongodb",
+          "title": "MongoDB"
+        },
+        {
+          "image":"expressjs.png",
+          "url":"https://expressjs.com/",
+          "title": "Express.js"
+        },
+        {
+          "image":"reactjs.png",
+          "url":"https://reactjs.org/",
+          "title": "React.js"
+        },
+        {
+          "image":"nodejs.png",
+          "url":"https://nodejs.org/en/about/",
+          "title": "Node.js"
+        },
+        {
+          "image":"bootstrap.png",
+          "url":"https://getbootstrap.com/",
+          "title": "Bootstrap"
+        },
+        {
+          "image":"heroku.png",
+          "url":"https://www.heroku.com/platform",
+          "title": "Heroku"
+        }
+      ]
+  },
+  "resume":{
+    "skillmessage":"Proficient in: JavaScript, HTML, CSS, React.js, jQuery, Bootstrap, Ajax, Node.js, MongoDB/mLab/Robo3T, mySql, Firebase, Visual Studio Code, Git, Git Bash, GitHub (with kanban version control), Heroku, GitHub Pages",
+    "education":[
+      {
+        "school":"The George Washington University",
+        "degree":"Bootcamp Certificate: Full Stack Web Development (May 2019)",
+        "description":"A 12-week intensive program focused on gaining technical programming skills in HTML5, CSS3, Javascript, JQuery, Bootstrap, Firebase, Node Js, MySQL, MongoDB, Express, Handelbars.js & ReactJS."
+      },
+      {
+        "school":"Columbia Business School (Columbia University, NY, NY)",
+        "degree":"MBA, Finance and Accounting",
+        "description":"Post graduation, successfully transitioned to a new career in equity research."
+      },
+      {
+        "school":"Georgetown University (Washington, DC)",
+        "degree":"BSBA, Marketing and International Business",
+        "description":"Post graduation, secured a job in merchandise planning in NYC."
+      }
+    ],
+    "work":[
+      {
+        "company":"Joyful Spirit Gifts",
+        "title":"Owner and Founder",
+        "years":"September 2013 - December 2018",
+        "description":"Built the business from the bottom up, including retail space renovations, all licensing and permitting, POS and web store system establishment and administration, purchasing, hiring and training, inventory management, payroll, and business analysis. Customer and vendor-facing every day."
+      }
+    ],
+    "skills":[
+      {
+        "name":"HTML, CSS, JavaScript",
+        "level":"75%"
+      },
+      {
+        "name":"React.js",
+        "level":"70%"
+      },
+      {
+        "name":"MongoDB, mLab, mySql",
+        "level":"80%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Tag This App",
+        "category":"This MERN app allows admin to create, update, and delete items for a neighborhood tag sale. Shoppers can see the available inventory and favorite the items they are interested in.  Tech used: React.js, MongoDB, S3, Passport, Express Sessions, Bootstrap and barcodes. See the code on GitHub! ",
+        "image":"tag-this-app.jpg",
+        "url":"https://tag-this-app.herokuapp.com/"
+      },
+      {
+        "title":"Clicky Cat App",
+        "category":"A cat-themed memory game built with React.js. See the code on GitHub!",
+        "image":"clicky-cat-app.jpg",
+        "url":"https://clicky-cats-app-mmrydz.herokuapp.com/"
+      },
+      {
+        "title":"Meyers Gigs",
+        "category":"A personality-based job hunting site. See the code on GitHub!",
+        "image":"meyers-gigs.jpg",
+        "url":"https://meyersgigs.herokuapp.com/"
+      }
+    ]
+  },
+  "testimonials":{
+    "testimonials":[
+      {
+        "text":"Testimonial #1",
+        "user":"Kind person #1"
+      },
+      {
+        "text":"Testimonial #2",
+        "user":"Kind person #2"
+      }
+    ]
+  }
+}
