@@ -1,12 +1,11 @@
 {
   "name": "mmrydz-webdev",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "jquery": "^3.4.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-ga": "^2.5.7",
     "react-scripts": "3.0.1",
     "react-scroll": "^1.7.11"
   },
