@@ -5,7 +5,11 @@ This is my professional website. It was created using the following technologies
 
 This app was deployed via Heroku here: https://mmrydz.herokuapp.com/.
 
-You can view a demo here: 
+Demo
+---- 
+![](PortfolioSiteDemo.gif)
 
+Try it for yourself!
+--------------------
 You are welcome to clone this from my repo and modify it for yourself.  Just install using Create-React-App. Then 'npm install' and modify away. To run it, type 'nmp start' in your terminal.
 
