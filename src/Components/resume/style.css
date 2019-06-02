@@ -1,13 +1,13 @@
  
   #resume {
-    background: white;
+    background: rgb(1, 1, 82);
     padding-top: 90px;
     padding-bottom: 72px;
     overflow: hidden;
  }
  
- #resume a, #resume a:visited  { color: #11ABB0; }
- #resume a:hover, #resume a:focus { color: #313131; }
+ #resume a, #resume a:visited  { color: rgb(3, 231, 3); }
+ #resume a:hover, #resume a:focus { color: white; }
  
  #resume h1 {
     font: 18px/24px 'opensans-bold', sans-serif;
@@ -15,7 +15,7 @@
     letter-spacing: 1px;
  }
  #resume h1 span {
-    border-bottom: 3px solid #11ABB0;
+    border-bottom: 3px solid white;
     padding-bottom: 6px;
  }
  #resume h3 {
@@ -26,16 +26,39 @@
  #resume .main-col { padding-right: 10%; }
  
  .education, .work {
+    color: white;
     margin-bottom: 48px;
     padding-bottom: 24px;
-    border-bottom: 1px solid #E8E8E8;
+    border-bottom: 1px solid rgb(3, 231, 3);
  }
+
+ .education span {
+    color: rgb(3, 231, 3);
+ }
+
+ .education h3 {
+    font: 25px/30px 'opensans-bold', sans-serif;
+    color: white;
+ }
+ .work span {
+   color: rgb(3, 231, 3);
+}
+.work h3 {
+   font: 25px/30px 'opensans-bold', sans-serif;
+   color: white;
+}
   #resume .info {
     font: 16px/24px 'librebaskerville-italic', serif;
-    color: black;
+    color: rgb(3, 231, 3);
     margin-bottom: 18px;
     margin-top: 9px;
  } 
+ #resume .info .p {
+   font: 14px/24px 'librebaskerville-italic', serif;
+   color: white;
+   margin-bottom: 18px;
+   margin-top: 9px;
+} 
   #resume .info span { 
     margin-right: 5px;
     margin-left: 5px;
@@ -58,7 +81,7 @@
 .bars li {
    position: relative;
       margin-bottom: 60px;
-      background: #ccc;
+      background: white;
       height: 42px;
       border-radius: 3px;
 }
@@ -84,3 +107,25 @@
    line-height: 42px;
    border-radius: 3px 0 0 3px;
 }
+
+/* scrolldown link */
+#resume .scrolldown a {
+   position: relative;
+   padding-top: 50px;
+   bottom: 30px;
+   left: 50%;
+   margin-left: -29px;
+   color: rgb(3, 231, 3);
+   display: block;
+   height: 42px;
+   width: 42px;
+   font-size: 42px;
+   line-height: 42px;
+   border-radius: 100%;
+
+   -webkit-transition: all .3s ease-in-out;
+   -moz-transition: all .3s ease-in-out;
+   -o-transition: all .3s ease-in-out;
+   transition: all .3s ease-in-out;
+}
+#resume .scrolldown a:hover { color: white; }

@@ -40,6 +40,9 @@ class Portfolio extends Component {
             </div>
           </div>
       </div>
+      <p className="scrolldown">
+         <a className="smoothscroll" href="#contact"><i className="fas fa-chevron-down"></i></a>
+      </p>
    </section>
     );
   }

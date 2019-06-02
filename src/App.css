@@ -1,4 +1,4 @@
-body { background: #navy; 
+/* body { background: ; 
 }
 
 .flexslider a:active,
@@ -6,47 +6,47 @@ body { background: #navy;
 .slides,
 .flex-control-nav,
 .flex-direction-nav { margin: 0; padding: 0; list-style: none; }
-.slides li { margin: 0; padding: 0;}
+.slides li { margin: 0; padding: 0;} */
 
 /* Necessary Styles */
-.flexslider {
+/* .flexslider {
    position: relative;
    zoom: 1;
    margin: 0;
    padding: 0;
 }
 .flexslider .slides { zoom: 1; }
-.flexslider .slides > li { position: relative; }
+.flexslider .slides > li { position: relative; } */
 
 /* Hide the slides before the JS is loaded. Avoids image jumping */
-.flexslider .slides > li { display: none; -webkit-backface-visibility: hidden; }
+/* .flexslider .slides > li { display: none; -webkit-backface-visibility: hidden; } */
 /* Suggested container for slide animation setups. Can replace this with your own */
-.flex-container { zoom: 1; position: relative; }
+/* .flex-container { zoom: 1; position: relative; } */
 
 /* Clearfix for .slides */
-.slides:before,
+/* .slides:before,
 .slides:after {
    content: " ";
    display: table;
 }
 .slides:after {
    clear: both;
-}
+} */
 
 /* No JavaScript Fallback */
 /* If you are not using another script, such as Modernizr, make sure you
  * include js that eliminates this class on page load */
-.no-js .slides > li:first-child { display: block; }
+/* .no-js .slides > li:first-child { display: block; } */
 
 /* Slider Styles */
-.slides { zoom: 1; }
-.slides > li {
+/* .slides { zoom: 1; }
+.slides > li { */
    /*margin-right: 5px; */
-   overflow: hidden;
-}
+   /* overflow: hidden;
+} */
 
 /* Control Nav */
-.flex-control-nav {
+/* .flex-control-nav {
     width: 100%;
     position: absolute;
     bottom: -20px;
@@ -80,10 +80,10 @@ body { background: #navy;
     background: #fff;
     background: rgba(255, 255, 255, .9);
     cursor: default;
-}
+} */
 
 
-#call-to-action {
+/* #call-to-action {
     background: #212121;
     padding-top: 66px;
     padding-bottom: 48px;
@@ -119,14 +119,14 @@ body { background: #navy;
  #call-to-action p {
     color: #636363;
     font-size: 17px;
- }
+ } */
  /*#
  call-to-action .button {
      color:#fff;
     background: #0D0D0D;
  }
  */
- #call-to-action .button:hover,
+ /* #call-to-action .button:hover,
  #call-to-action .button:active {
     background: #FFFFFF;
     color: #0D0D0D;
@@ -134,7 +134,7 @@ body { background: #navy;
  #call-to-action p span {
      font-family: 'opensans-semibold', sans-serif;
      color: #D8D8D8;
- }
+ } */
 
 /* ------------------------------------------------------------------ */
 /* a. Webfonts and Icon fonts
@@ -174,7 +174,7 @@ footer,header,hgroup,menu,nav,section {
    display: block;
 }
 
-audio,
+/* audio,
 canvas,
 video {
    display: inline-block;
@@ -185,7 +185,7 @@ audio:not([controls]) {
    height: 0;
 }
 
-[hidden] { display: none; }
+[hidden] { display: none; } */
 
 code, kbd, pre, samp {
    font-family: monospace, serif;
@@ -205,20 +205,7 @@ q:before, q:after {
    content: '';
    content: none;
 }
-
-ins {
-   background-color: #ff9;
-   color: #000;
-   text-decoration: none;
-}
-
-mark {
-   background-color: #A7F4F6;
-   color: #555;
-}
-
-del { text-decoration: line-through; }
-
+/* 
 abbr[title], dfn[title] {
    border-bottom: 1px dotted;
    cursor: help;
@@ -227,7 +214,7 @@ abbr[title], dfn[title] {
 table {
    border-collapse: collapse;
    border-spacing: 0;
-}
+} */
 
 
 *,
@@ -249,7 +236,7 @@ body {
    font-weight: normal;
    font-size: 15px;
    line-height: 30px;
-	color: #838C95;
+	color: white;
 
    -webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 	-webkit-text-size-adjust: 100%;

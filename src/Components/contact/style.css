@@ -1,8 +1,10 @@
 #contact {
-    background: rgb(70, 141, 207);
+    background: rgb(1, 1, 82);
     padding-top: 96px;
     padding-bottom: 102px;
-    color: black;
+    color: white;
+    align-content: center;
+    border-bottom: 1px solid rgb(3, 231, 3);
  }
  #contact .section-head { margin-bottom: 42px; }
  
@@ -30,11 +32,12 @@
  
  #contact h4 {
     font: 16px/24px 'opensans-bold', sans-serif;
-    color: #EBEEEE;
+    color: rgb(3, 231, 3);
     margin-bottom: 6px;
  }
  #contact p.lead {
     font: 18px/36px 'opensans-light', sans-serif;
+    color: rgb(3, 231, 3);
     padding-right: 3%;
  }
  #contact .header-col { padding-top: 6px; }
@@ -55,7 +58,7 @@
  #contact select {
     padding: 18px 20px;
      color: #eee;
-     background: #4d4be7;
+     background: white;
      margin-bottom: 42px;
      border: 0;
      outline: none;
@@ -67,14 +70,14 @@
  #contact textarea:focus,
  #contact select:focus {
      color: #fff;
-     background-color: #11ABB0;
+     background-color: rgb(3, 231, 3);
  }
  #contact button.submit {
      text-transform: uppercase;
      letter-spacing: 3px;
      color:#fff;
-    background: #0D0D0D;
-     border: none;
+    background: rgb(3, 231, 3);
+     border: 2px white;
     cursor: pointer;
     height: auto;
     display: inline-block;
@@ -82,11 +85,11 @@
     margin-left: 26%;
  }
  #contact button.submit:hover {
-     color: navy;
+     color: rgb(3, 231, 3);
      background: #fff;
  }
  #contact span.required {
-     color: #11ABB0;
+     color: rgb(3, 231, 3);
      font-size: 13px;
  }
  #message-warning, #message-success {
@@ -97,8 +100,8 @@
     width: 65%;
     margin-left: 26%;
  }
- #message-warning { color: #D72828; }
- #message-success { color: #11ABB0; }
+ #message-warning { color: red; }
+ #message-success { color: rgb(3, 231, 3); }
  
  #message-warning i,
  #message-success i {
@@ -110,3 +113,5 @@
     left: 18px;
     top: 17px;
  }
+
+  

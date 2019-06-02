@@ -1,21 +1,21 @@
 #about {
-    background: rgb(92, 138, 223);
+    background: rgb(1, 1, 82);
     padding-top: 96px;
     padding-bottom: 66px;
     overflow: hidden;
  }
  
  #about a, #about a:visited  { color: #fff; }
- #about a:hover, #about a:focus { color: #11ABB0; }
+ #about a:hover, #about a:focus { color: rgb(3, 231, 3); }
  
  #about h2 {
     font: 22px/30px 'opensans-bold', sans-serif;
-    color: #fff;
+    color: rgb(3, 231, 3);
     margin-bottom: 12px;
  }
  #about p {
     line-height: 30px;
-    color: black;
+    color: white;
  }
  #about .profile-pic {
     position: relative;
@@ -31,16 +31,36 @@
  #about .main-col { padding-right: 5%; }
  #about .download .button {
     margin-top: 6px;
-    background: #444;
+    background: rgb(3, 231, 3);
  }
  #about .download .button:hover {
     background: #fff;
-    color: #2B2B2B;
+    color: rgb(3, 231, 3);
  }
  #about .download .button i {
     margin-right: 15px;
     font-size: 20px;
  }
 
- 
+  /* scrolldown link */
+  #about .scrolldown a {
+   position: relative;
+   padding-top: 50px;
+   bottom: 30px;
+   left: 50%;
+   margin-left: -29px;
+   color: rgb(3, 231, 3);
+   display: block;
+   height: 42px;
+   width: 42px;
+   font-size: 42px;
+   line-height: 42px;
+   border-radius: 100%;
+
+   -webkit-transition: all .3s ease-in-out;
+   -moz-transition: all .3s ease-in-out;
+   -o-transition: all .3s ease-in-out;
+   transition: all .3s ease-in-out;
+}
+#about .scrolldown a:hover { color: white; }
  
