@@ -125,9 +125,9 @@
         "github":"https://github.com/mmrydz/clickygame"
       },
       {
-        "title":"My Portfolio Site",
+        "title":"Meg Rydzewski - Full Stack Web Developer",
         "category":"This is my portfolio site, built with React.js.",
-        "image":"portfolio.jpg",
+        "image":"portfolio-site.jpg",
         "url":"https://mmrydz.herokuapp.com",
         "github":"https://github.com/mmrydz/mmrydz.github.io"
       },

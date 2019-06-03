@@ -27,6 +27,7 @@
  .portfolio-item .item-wrap a {
     display: block;
     cursor: pointer;
+    border: 1px white;
  }
  
  .portfolio-item .item-wrap .overlay {
