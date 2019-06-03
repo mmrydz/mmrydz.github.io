@@ -96,15 +96,15 @@
     "skills":[
       {
         "name":"HTML, CSS, JavaScript",
-        "level":"75%"
+        "level":"85%"
       },
       {
         "name":"React.js",
-        "level":"70%"
+        "level":"85%"
       },
       {
         "name":"MongoDB, mLab, mySql",
-        "level":"80%"
+        "level":"85%"
       }
     ]
   },
@@ -112,21 +112,31 @@
     "projects": [
       {
         "title":"Tag This App",
-        "category":"This MERN app allows admin to create, update, and delete items for a neighborhood tag sale. Shoppers can see the available inventory and favorite the items they are interested in.  Tech used: React.js, MongoDB, S3, Passport, Express Sessions, Bootstrap and barcodes. See the code on GitHub! ",
+        "category":"This MERN app allows admin to create, update, and delete items for a neighborhood tag sale. Shoppers can see the available inventory and favorite the items they are interested in.  Tech used: React.js, MongoDB, S3, Passport, Express Sessions, Bootstrap and barcodes.",
         "image":"tag-this-app.jpg",
-        "url":"https://tag-this-app.herokuapp.com/"
+        "url":"https://tag-this-app.herokuapp.com/",
+        "github":"https://github.com/mmrydz/tag-this-app"
       },
       {
         "title":"Clicky Cat App",
-        "category":"A cat-themed memory game built with React.js. See the code on GitHub!",
+        "category":"A cat-themed memory game built with React.js.",
         "image":"clicky-cat-app.jpg",
-        "url":"https://clicky-cats-app-mmrydz.herokuapp.com/"
+        "url":"https://clicky-cats-app-mmrydz.herokuapp.com/",
+        "github":"https://github.com/mmrydz/clickygame"
+      },
+      {
+        "title":"My Portfolio Site",
+        "category":"This is my portfolio site, built with React.js.",
+        "image":"portfolio.jpg",
+        "url":"https://mmrydz.herokuapp.com",
+        "github":"https://github.com/mmrydz/mmrydz.github.io"
       },
       {
         "title":"Meyers Gigs",
-        "category":"A personality-based job hunting site. See the code on GitHub!",
+        "category":"A personality-based job hunting site.",
         "image":"meyers-gigs.jpg",
-        "url":"https://meyersgigs.herokuapp.com/"
+        "url":"https://meyersgigs.herokuapp.com/",
+        "github":"https://github.com/mmrydz/MeyersGigs"
       }
     ]
   },

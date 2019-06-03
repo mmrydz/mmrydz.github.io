@@ -12,7 +12,6 @@
     color: rgb(3, 231, 3);
  }
  
- /* Portfolio Content */
  #portfolio-wrapper .columns { margin-bottom: 36px; }
  .portfolio-item .item-wrap {
     background: #fff;
@@ -30,7 +29,6 @@
     cursor: pointer;
  }
  
- /* overlay */
  .portfolio-item .item-wrap .overlay {
     position: absolute;
     left: 0;
@@ -88,7 +86,6 @@
     margin-bottom: 0;
  }
  
- /* on hover */
  .portfolio-item:hover .overlay {
      opacity: 1;
      -moz-opacity: 1;
@@ -100,7 +97,6 @@
      filter:alpha(opacity=0);
  }
  
- /* popup modal */
  .popup-modal {
      max-width: 550px;
      background: rgb(1, 1, 82);
@@ -147,11 +143,12 @@
  .popup-modal a:hover {	color: rgb(1, 1, 82); }
  .popup-modal a.popup-modal-dismiss { margin-left: 24px; }
  
+ .github-link {
+   font: 16px/18px 'opensans-light', sans-serif;
+   color: white; 
+
+ }
  
- /* fadein/fadeout effect for modal popup
- /* ------------------------------------------------------------------ */
- 
- /* content at start */
  .mfp-fade.mfp-wrap .mfp-content .popup-modal {
     opacity: 0;
     -webkit-transition: all 200ms ease-in-out;
