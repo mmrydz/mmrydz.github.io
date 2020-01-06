@@ -21,7 +21,7 @@ class Footer extends Component {
            </ul>
 
            <ul className="copyright">
-              <li>&copy; Copyright 2019 Meg Rydzewski</li>
+              <li>&copy; Copyright 2020 Meg Rydzewski</li>
            </ul>
 
         </div>
